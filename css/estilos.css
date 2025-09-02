@@ -12,7 +12,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body {
@@ -41,6 +40,8 @@ nav ul li a {
    text-transform: uppercase;
 }
 
+
+
 .hero {
     text-align: center;
     padding: 40px;
@@ -66,68 +67,76 @@ nav ul li a {
     border-radius: 8px;
 }
 
-/* mediaquearys/ diseño reponsive */
-@media (max-width: 768px){
+
+/* Mediaquerys / diseño responsive */
+
+@media(max-width: 768px){
     nav ul {
-flex-direction: column;
-gap:10px;
-    
-}
-.hero img {
-    width: 100%;
-}
-.cards{
-    flex-direction: column;
-    align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
-/*contacto*/
-form{
-    background-color: var(--fondo-gris)
-    padding 20px;
-    border-radius:8px;
-    width:350px;
-    margin:0 auto;
+
+/* Contacto  */
+
+form {
+    background-color:var(--fondo-gris);
+    padding: 20px;
+    border-radius: 8px;
+    width: 350px;
+    margin: 0 auto;
 }
-form h2{
+
+form h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom:20px ;
     color: var(--fondo-azul);
     font-family: var(--fuente-principal);
 }
-label{
+
+label {
     display: block;
     margin: 10px 5px;
+
 }
 
 input,textarea {
     width: 100%;
-    padding: 10px;
-    border: 1px solid  #ccc;
+    padding: 8px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-
 }
 
 button {
     display: block;
-    margin-top:15px;
+    margin-top: 15px;
     padding: 10px;
     background-color: var(--fondo-azul);
-    color:var(--texto-blanco);
+    color: var(--texto-blanco);
     border: none;
     border-radius: 5px;
-    margin: 0 auto;
+    margin: 0 auto ;
     cursor: pointer;
-    
 }
 
-button:hover{
-    background-color: #004466;
+button:hover {
+    background-color: #006699;
 }
 
 
 
-}
+
 
 
 
